@@ -15,7 +15,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JsonParser {
+public class GsonParser {
     private static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd.MM.yy");
     private static DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("k:mm");
 
